@@ -47,21 +47,25 @@ public class StringMethods {
 		
 		// replace parts of string
 		String to_be_replaced = "Bananarama";
-		System.out.println("Before replaceing: " + to_be_replaced);
+		System.out.println("Before replacing: " + to_be_replaced);
 		
 		to_be_replaced = to_be_replaced.replace('a', 'o');
-		System.out.println("After replaceing: " + to_be_replaced);
-		
+		System.out.println("After replacing: " + to_be_replaced);
 		
 		// split
-		
 		String my_string = "Hi_my_name_is_slim_shady";
 		String[] my_split = my_string.split("_");
 		System.out.println("Before splitting with \"_\": " + my_string);
 		for(int i = 0; i<my_split.length; i++) {
 			System.out.println(my_split[i]);
 		}
-				
+		
+		// concatenate
+		String str1 = "hello";
+		String str2 = " Marc";
+		String str_concat = str1.concat(str2);
+		
+		System.out.println(str_concat);
 		
 		
 				
